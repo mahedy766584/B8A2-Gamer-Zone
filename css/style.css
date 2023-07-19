@@ -553,6 +553,61 @@ footer{
 
 
 /* @ responsive for Tablet */
-@media screen and (min-width: 576px) and (max-width: 1040px){
-    
+@media screen and (min-width: 820px) and (max-width: 1013px){
+     /* header responsive */
+    header{
+        width: 100%;
+    }
+    .all-container-of-G-O-A-T{
+        width: 100%;
+        margin-left: 0;
+    }
+    .play-like-all-text-icons > .second-headding{
+        font-size: 3rem;
+    }
+    .play-like-all-text-icons > .first-headding{
+        font-size: 2rem;
+    }
+    .first-image > img{
+        width: 350px;
+    }
+    .secondary-image > img{
+        display: none;
+    }
+    .we-are-gamer-section{
+        flex-direction: column;
+    }
+    .we-are-gamer-all-text{
+        text-align: center;
+    }
+    .overlay-images{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .container{
+        margin-top: 60px;
+    }
+    .play-instantly-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-heading{
+        width: 100%;
+    }
+    .play-description{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .play-image{
+        margin-left: 50px;
+    }
+    .game-list-section{
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
