@@ -81,27 +81,153 @@ nav .nav > ul > li > a{
 .G-O-A-T-and-banner-section{
     width: 100%;
 }
+.first-image > img{
+    width: 85%;
+}
 .all-container-of-G-O-A-T{
-    max-width: 80%;
+    width: 77%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 15%;
 }
-.play-like-all-text-icons{
-    
+.play-like-all-text-icons > .first-headding{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0B0223;
+    letter-spacing: 4px;
+}
+.secondary-image{
+    position: absolute;
+    top: 71px;
+    left: 0;
+}
+.play-like-all-text-icons > .second-headding{
+    font-size: 5.6rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #ff42a5 0%, #8758f1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.play-like-all-text-icons > p{
+    color: #534c64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.fa-circle-play, .fa-circle-down{
+    color: #ff42a5;
+}
+.first-btn{
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ff42a5;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.second-btn{
+    background-color: #8758f1;
+    margin-left: 10px;
+}
+.first-btn > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* We are gamer section style */
+.we-are-gamer-section{
+    display: flex;
+    width: 77%;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.we-image > img{
+    width: 750px;
+}
+.we-are-gamer-all-text{
+    text-align: end;
+}
+.we-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #ff42a5 0%, #8758f1 90%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.we-description{
+    margin-top: 15px;
+    color: #534c64;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.we-are-gamer-all-text > .first-btn{
+    margin-top: 15px;
+}
+.unleash{
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #534c64;
+}
+/* play instantly, no downloads no installs. section style */
+.play-instantly-section{
+    display: flex;
+    width: 77%;
+    gap: 10%;
+    margin: 90px auto;
+    justify-content: flex-end;
+}
+.text-content{
+    text-align: end;
+    width: 77%;
+    margin-top: 15%;
+}
+.play-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #ff42a5, #8758f1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.no-diwload{
+    color: #0B0223;
+}
+.play-description{
+    color: #534c64;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    width: 320px;
+    margin-left: 180px;
+    line-height: 26px;
+}
+.last-image{
+    position: relative;
+    top: -280px;
+    right: 100px;
 }
 
 
 
-
-
-
+.hide{
+    display: none;
+}
 
 
 /* @ responsive for Mobile device */
 @media screen and (max-width: 576px){
     /* header responsive */
+    header{
+        width: 100%;
+    }
     nav .check-btn{
         display: block;
         margin-top: 7px;
@@ -126,7 +252,71 @@ nav .nav > ul > li > a{
         left: 0;
     }
 
-
+    /* G-O-A-T-and-banner-section responsive */
+    .all-container-of-G-O-A-T{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .first-image > img{
+        width: 300px;
+    }
+    .secondary-image > img{
+        display: none;
+    }
+    .play-like-all-text-icons{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .play-like-all-text-icons > .second-headding{
+        font-size: 4rem;
+    }
+    /* We are gamer section responsive */
+    .we-are-gamer-section{
+        flex-direction: column;
+        margin-top: 35px;
+    }
+    .we-image > img{
+        width: 100%;
+    }
+    .we-are-gamer-all-text{
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .we-heading{
+        font-size: 2rem;
+    }
+    .unleash{
+        font-size: 18px;
+    }
+    /* play instantly, no downloads no installs. section responsive */
+    .play-instantly-section{
+        flex-direction: column;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .play-heading{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .play-description{
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .play-image img{
+        margin-top: 60px;
+        width: 90%;
+    }
+    .play-image > .last-image{
+        width: 130px;
+        top: -170px;
+        left: -30px;
+    }
 }
 
 
