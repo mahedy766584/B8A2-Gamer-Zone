@@ -434,6 +434,9 @@ footer{
         text-align: center;
         margin-top: 50px;
     }
+    .play-like-all-text-icons >.first-headding{
+        font-size: 2rem;
+    }
     .play-like-all-text-icons > .second-headding{
         font-size: 4rem;
     }
