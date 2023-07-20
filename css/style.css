@@ -383,12 +383,12 @@ footer{
 .copy{
     margin-top: 35px;
 }
-
-
-
-.hide{
-    display: none;
+footer > .all-content-of-footer .footer-icons > a > .fa-youtube{
+    color: #bcbcbc;
 }
+
+
+
 
 
 /* @ responsive for Mobile device */
